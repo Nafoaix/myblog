@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>几种常用按键驱动</title>
+      <link href="/archives/e072e9e0.html"/>
+      <url>/archives/e072e9e0.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="几种常用按键驱动"><a href="#几种常用按键驱动" class="headerlink" title="几种常用按键驱动"></a>几种常用按键驱动</h2><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>&emsp;&emsp;几种单片机常用的按键驱动模块，小巧简单易用方便拓展，实用按键业务逻辑轮子。</p><h3 id><a href="#" class="headerlink" title></a></h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学记笔记 </category>
+          
+          <category> 嵌入式 </category>
+          
+          <category> 按键 </category>
+          
+          <category> 驱动 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+            <tag> 嵌入式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>STM32使用DWT实现微秒延时</title>
       <link href="/archives/96aa65ec.html"/>
       <url>/archives/96aa65ec.html</url>
