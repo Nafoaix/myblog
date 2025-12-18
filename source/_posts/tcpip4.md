@@ -2,13 +2,13 @@
 title: 计算机网络体系结构（四）
 tags:
   - 学习笔记
-  - STM32
+  - 计算机网络
 categories:
   - 学记笔记
-  - STM32
+  - 计算机网络
 toc: true
-top_img: 'https://cdn.nafx.top/post_cover/20240322222147.png'
-cover: 'https://cdn.nafx.top/post_cover/20240322222147.png'
+top_img: 'https://cdn.nafx.top/post_cover/NetworkArchitecture.jpg'
+cover: 'https://cdn.nafx.top/post_cover/NetworkArchitecture.jpg'
 abbrlink: c87ac216
 date: 2022-10-09 22:25:11
 ---

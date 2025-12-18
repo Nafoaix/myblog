@@ -13,9 +13,12 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://nafx.top/myblog
+url: https://nafx.top
 root: /
-permalink: :year/:month/:day/:title/
+permalink: archives/:abbrlink.html #url 持久化
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: hex    # 进制：dec(default) and hex
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -43,12 +46,12 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: false
+  line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -105,13 +108,30 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
+- type: 'git'
   repo: git@github.com:Nafoaix/myblog.git
-  branch: 'master'
+  branch: gh-pages
   message:
+- type: baidu_url_submitter
+
+Plugins:
+- hexo-generator-baidu-sitemap
+- hexo-generator-sitemap
 
 # Sitemap
 sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
+
+  # 主动推送百度，被百度收录
+baidu_url_submit:
+  count: 10 # 提交最新的10个链接
+  host: https://nafx.top # 百度站长平台中注册的域名
+  token: M7ZIsiIvY8sEo1s2 # 秘钥，百度站长平台 > 推送接口 > 接口调用地址中token字段
+  path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里，不用改
+
+nofollow:
+  enable: true
+  field: site
+  exclude: ''
