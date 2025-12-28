@@ -4,7 +4,7 @@ tags:
   - 学习笔记
   - STM32
 categories:
-  - 学记笔记
+  - 学习笔记
   - STM32
 toc: true
 top_img: 'https://cdn.nafx.top/post_cover/20240322222147.png'

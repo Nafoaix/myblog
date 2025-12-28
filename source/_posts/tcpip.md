@@ -4,7 +4,7 @@ tags:
   - 学习笔记
   - 计算机网络
 categories:
-  - 学记笔记
+  - 学习笔记
   - 计算机网络
 toc: true
 top_img: 'https://cdn.nafx.top/post_cover/NetworkArchitecture.jpg'
